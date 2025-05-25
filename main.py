@@ -57,18 +57,15 @@ def banner(console):
 
     console.print(text)
     console.print(
-    "[bold white] ============================================================[/bold white]"
-)
-console.print(
-    "[bold yellow]      Пожалуйста, войдите в CPM перед использованием этого инструмента[/bold yellow]"
-)
-console.print(
-    "[bold white]      Перед использованием, выйдите с аккаунта в CPM[/bold white]"
-)
-console.print("[bold red]      Совместное использование ключа доступа запрещено и будет заблокировано[/bold red]")
-console.print(
-    "[bold white] ============================================================[/bold white]"
-)
+        "[bold white] ============================================================[/bold white]"
+    )
+    console.print(
+        "[bold yellow]      Пожалуйста, войдите в CPM перед использованием этого инструмента[/bold yellow]"
+    )
+    console.print("[bold red]      Совместное использование ключа доступа запрещено и будет заблокировано[/bold red]")
+    console.print(
+        "[bold white] ============================================================[/bold white]"
+    )
 
 
 def load_player_data(cpm):
